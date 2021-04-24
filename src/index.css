@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page {
+  padding: 15px;
+}
+
+.card {
+  background-color: lightgray;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pos {
+  color: green;
+}
+
+.neg {
+  color: red;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.del {
+  display: flex;
+}
+
+.hov:hover {
+  background-color: deepskyblue;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.currency {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+.spinner-grow {
+  height: 80px;
+  width: 80px;
+}
