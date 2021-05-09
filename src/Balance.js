@@ -4,7 +4,7 @@ const Balance = ({ balance, currency }) => (
   <div className="card col-12 col-md-4 col-lg-4 p-3">
     <h2>Egyenleg</h2>
     <div className={`mt-3 ${balance < 0 ? "neg" : "pos"}`}>
-      <h1>{`${Math.abs(balance).toLocaleString().replace(/\,/g, " ")} HUF`}</h1>
+      <h1>{`${Math.abs(balance).toLocaleString().replace(/,/g, " ")} HUF`}</h1>
     </div>
 
     <div className="currency">

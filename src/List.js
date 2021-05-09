@@ -9,7 +9,7 @@ const List = ({ list, remove }) => (
           <div className="del">
             <div
               className={`mx-5 ${el.type === "pos" ? "pos" : "neg"}`}
-            >{`${el.price.toLocaleString().replace(/\,/g, " ")} HUF`}</div>
+            >{`${el.price.toLocaleString().replace(/,/g, " ")} HUF`}</div>
             <button onClick={() => remove(el)} className="btn btn-secondary">
               Törlés
             </button>
